@@ -1,0 +1,52 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# API Keys and secrets
+*.key
+*.pem
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# MDX files (for blog)
+*.mdx
+
+# Backup files
+*.bak
+*.backup
+*.local
+backup-*.sql
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Node modules (if any)
+node_modules/
+
+# Bun
+.bun/
+bun.lockb
